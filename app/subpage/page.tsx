@@ -9,13 +9,12 @@ const Page = () => {
         <div className=" xl:w-1/2">
           <h1 className="xl:text-4xl  text-8xl xl:pt-20">This is a subpage</h1>
           <p className="text-2xl pt-20">
-            Go to  <Link href="/">home page</Link>
             <br />
             <br />
           </p>
           <div className="pt-20">
             <Link href="/subpage/8989x" className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">
-              [id]
+              to to subpage/[id]
             </Link>
           </div>
         </div>
