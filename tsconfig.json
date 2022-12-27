@@ -34,6 +34,6 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", "additional.d.ts", "app/**/*", "pages/**/*", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "additional.d.ts", "app/**/*", "pages/**/*", ".next/types/**/*.ts", "utils/get-url.ts"],
   "exclude": ["node_modules"]
 }

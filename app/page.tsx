@@ -20,7 +20,13 @@ const Page = () => {
             </Link>
             <br />
             <br />
-            <Link href="/subpage" className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">
+            <Link href="/with-api" className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">
+              Go to api endpoint
+            </Link>
+            <br />
+            <br />
+
+            <Link href="/with-api" className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">
               Go to Mongo CRUD
             </Link>
           </div>

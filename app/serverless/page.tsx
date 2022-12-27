@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { FC } from "react";
-import { getCollectionData } from "./get-url";
+import { getCollectionData } from "../../utils/get-url";
 
 async function getAllWorlds() {
   const res = await getCollectionData("worlds",10);
