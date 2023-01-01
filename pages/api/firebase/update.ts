@@ -2,7 +2,10 @@ import { db } from "config/firebase";
 import { doc, updateDoc } from "firebase/firestore";
 import { NextApiRequest, NextApiResponse } from "next";
 
-export default async function read(req: NextApiRequest, res: NextApiResponse) {
+export default async function update(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
   if (req.method === "PATCH") {
     const { id, name, email, password } = req.body;
     const dataToBeEdit = doc(db, "users", id);

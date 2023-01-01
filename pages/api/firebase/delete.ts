@@ -2,7 +2,10 @@ import { db } from "config/firebase";
 import { doc, deleteDoc } from "firebase/firestore";
 import { NextApiRequest, NextApiResponse } from "next";
 
-export default async function read(req: NextApiRequest, res: NextApiResponse) {
+export default async function remove(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
   if (req.method === "DELETE") {
     const { id } = req.body;
     const dataToBeDeleted = doc(db, "users", id);
