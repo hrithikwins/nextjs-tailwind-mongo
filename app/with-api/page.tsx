@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { FC } from "react";
+import React from "react";
 
 async function getAllWorlds() {
   const res = await fetch(process.env.BASE_URL + "/api/worlds", {
