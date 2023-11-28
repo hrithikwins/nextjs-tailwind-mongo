@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^1.2.1",
     "cors": "^2.8.5",
     "firebase": "^9.15.0",
     "framer-motion": "^7.6.6",
@@ -13,9 +14,9 @@
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.41.1"
     "react-firebase-hooks": "^5.1.1",
     "react-firebaseui": "^6.0.0",
-    "react-hooks-form": "^2.0.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
